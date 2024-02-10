@@ -22,3 +22,21 @@
     padding: 8px 12px;
     cursor: pointer;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    align-content: stretch;
+
+    padding: 8px;
+    margin: 8px;
+  }
+  
+  .form-feed {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
