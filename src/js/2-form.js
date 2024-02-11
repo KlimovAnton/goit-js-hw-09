@@ -4,12 +4,13 @@ const formElement = document.querySelector(".feedback-form")
 const textareaElement = document.querySelector("textarea")
 
 function readFormData (form) {
-    const message = form.message.value
-    const email = form.email.value
+    const message = form.message.value.trim()
+    const email = form.email.value.replaceAll(' ', '')
+    
     return {
         email,
         message
-    }
+    }   
 }
 
 

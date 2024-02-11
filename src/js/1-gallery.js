@@ -87,7 +87,7 @@ const images = [
   .join("")
   };
 
-  var lightbox = new SimpleLightbox('.gallery a', { 
+  const lightbox = new SimpleLightbox('.gallery a', { 
     captionsData: `alt`,
     captionsPosition: `bottom`,
     captionsDelay: 250,
